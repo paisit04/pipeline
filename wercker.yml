@@ -69,11 +69,11 @@ deploy:
        repository: paisit04/pipeline
        registry: https://registry.hub.docker.com/v2
 
-   - cng/cf-deploy:
-       api: $API
-       user: $USER
-       password: $PASSWORD
-       org: $ORG
-       space: $SPACE
-       appname: pipeline
-       docker_image: paisit04/pipeline
+#   - cng/cf-deploy:
+#       api: $API
+#       user: $USER
+#       password: $PASSWORD
+#       org: $ORG
+#       space: $SPACE
+#       appname: pipeline
+#       docker_image: paisit04/pipeline
